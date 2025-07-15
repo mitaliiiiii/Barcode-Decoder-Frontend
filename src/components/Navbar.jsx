@@ -14,7 +14,7 @@ function Navbar() {
         <button  className="hover:bg-[#ED4987] hover:text-[#FCDFE9] px-3 py-1 rounded-[10px] transition cursor-pointer">
           How it Works?
         </button></Link>
-        <a href='' className="hover:bg-[#ED4987] hover:text-[#FCDFE9] px-3 py-1 rounded-[10px] transition cursor-pointer">
+        <a href='https://github.com/mitaliiiiii' className="hover:bg-[#ED4987] hover:text-[#FCDFE9] px-3 py-1 rounded-[10px] transition cursor-pointer">
           Github
         </a>
       </div>
