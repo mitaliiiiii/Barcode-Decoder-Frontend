@@ -1,12 +1,44 @@
-# React + Vite
+# 📷 Barcode Decoder - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend interface for the **Barcode Decoder** web app, built using **React** and **Tailwind CSS**. Users can upload barcode images and receive decoded text using a connected backend (Spring Boot API).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Upload barcode images (PNG, JPG, etc.)
+- Minimal, responsive UI with Tailwind CSS
+- Communicates with backend `/decode` API for real-time decoding
+- Displays decoded barcode text clearly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖼️ Demo
+
+![screenshot](.<img width="1872" height="1022" alt="image" src="https://github.com/user-attachments/assets/51ed5bdd-e92e-4590-a0fd-4b4a4853ba97" />
+) <!-- Replace with actual image or remove if none -->
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **Fetch API**
+- **FormData Upload**
+- Backend: Spring Boot (external service)
+
+---
+
+## 🛠️ Local Development
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/Barcode-Decoder-Frontend.git
+cd Barcode-Decoder-Frontend
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
