@@ -24,7 +24,7 @@ function Mainbody() {
   const formData = new FormData();
   formData.append('image',selectedfile);
   try{
-    const res = await axios.post('http://localhost:8080/decode' , formData);
+    const res = await axios.post('https://barcode-decoder-backend.onrender.com/decode' , formData);
     setoutputtext(res.data);
   }catch(err){
     console.error(err);
